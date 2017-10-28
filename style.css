@@ -1,0 +1,72 @@
+#display{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:auto;
+    border:2px black solid;
+}
+
+#background{
+    position:relative;
+    width:100%;
+    height:300px; 
+}
+.newDivClass{
+    position:relative;
+    width:100%;
+    height:300px; 
+}
+#title{
+    position:absolute;
+    left:10%;
+    top:10%;
+    font-size: 40px;
+    color:grey;
+    border-bottom:1px black solid;
+}
+
+.newTitleClass{
+    position:relative;
+    left:10%;
+    top:20%;
+    font-size: 40px;
+    color:grey;
+    border-bottom:1px black solid;
+}
+
+#description{
+    position:absolute;
+    left:10%;
+    top:20%;
+    color:grey;
+    font-size: 30px;
+}
+.newDesClass{
+    position:relative;
+    left:10%;
+    top:20%;
+    color:grey;
+    font-size: 30px;
+}
+#controls{
+    position:fixed;
+    width:100px;
+    height:170px;
+    bottom:-170px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    transition:1s;
+}
+#menu{
+    position:relative;
+    top:-30px;
+    
+}
+.buttons{
+    position:relative;
+    width:100%;
+    margin-left:0px;
+    margin-top:0px;
+}
